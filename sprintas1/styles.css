@@ -1,0 +1,50 @@
+html {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#table {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+*/ #table td,
+#table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table td:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#table td:hover {
+    background-color: #ddd;
+}
+
+#table td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #e40d2a;
+    color: rgb(143, 140, 140);
+}
+
+.loginas,
+#loginas {
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+}
+
+form,
+div {
+    border: 1px solid black;
+    width: 15%;
+    border-radius: 5px;
+    text-align-last: center;
+    background-color: aliceblue;
+}
